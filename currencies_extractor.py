@@ -22,7 +22,7 @@ FLAG_EXCEPTIONS = {
     "INR": "IN",
     "NOK": "NO",
     "XAF": "CF",
-    "NZD": "ND",
+    "NZD": "NZ",
     "ANG": "NL",
     "DKK": "DK",
     "XPF": "PF",

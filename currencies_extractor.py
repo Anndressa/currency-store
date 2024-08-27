@@ -1,9 +1,10 @@
 import requests
 from countries_extractor import fetch_countries
-from utils import extract_from_xml
-from utils import save_json_to_file
+from utils import *
 
 CURRENCY_LIST_URL = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+CURRENCY_SYMBOLS_URL = "https://www.currencyremitapp.com/world-currency-symbols"
+HEADERS_TO_CURRENCY_SYMBOLS_PAGE = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 COUNTRIES_NAME_EXCEPTIONS = {
     "KOREA (THE DEMOCRATIC PEOPLE’S REPUBLIC OF)": "KP",
@@ -43,9 +44,18 @@ def fetch_currencies_by_country():
     }
     return extract_from_xml(xml_content, 'CcyTbl', 'CcyNtry', node_info)
 
+def fetch_currencies_symbols():
+    html_content = requests.get(CURRENCY_SYMBOLS_URL, headers = HEADERS_TO_CURRENCY_SYMBOLS_PAGE).content
+    table_info = {
+        "code_alpha3": 3,
+        "symbol": 4,
+    }
+    return extract_list_from_html_table(html_content,'', table_info)
+
 def fetch_currencies():
     data = fetch_currencies_by_country()
     countries = fetch_countries()
+    symbols = fetch_currencies_symbols()
     currencies = {}
     
     for item in data:
@@ -54,15 +64,17 @@ def fetch_currencies():
             country = find_country(countries, item['country'])
             if country is not None:
                 if currency_code not in currencies:
+                    symbol = find_item(symbols, 'code_alpha3', currency_code)
                     currencies[currency_code] = { 
                         "code_alpha3": currency_code, 
                         "code_numeric": int(item['code_numeric']),
+                        "symbol": symbol['symbol'] if symbol is not None else '',
                         "name": item['name'],
                         "minor_units": int(item['minor_units']) if item['minor_units'] != 'N.A.' else 0,
                         "countries": [],
                     }
         
-                currencies[currency_code]['countries'].append(country['code_alpha2'])
+                currencies[currency_code]['countries'].append(country['code_alpha2']) 
 
     for currency in currencies.values():
         flag = currency_flag(currency)

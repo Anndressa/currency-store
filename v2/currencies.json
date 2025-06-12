@@ -1,0 +1,653 @@
+{
+    "EUR": {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Akrotiri and Dhekelia",
+                "code": null
+            },
+            {
+                "name": "Andorra",
+                "code": "AD"
+            },
+            {
+                "name": "Austria",
+                "code": "AT"
+            },
+            {
+                "name": "Belgium",
+                "code": "BE"
+            },
+            {
+                "name": "Croatia",
+                "code": "HR"
+            },
+            {
+                "name": "Cyprus",
+                "code": "CY"
+            },
+            {
+                "name": "Estonia",
+                "code": "EE"
+            },
+            {
+                "name": "Finland",
+                "code": "FI"
+            },
+            {
+                "name": "France",
+                "code": "FR"
+            },
+            {
+                "name": "Germany",
+                "code": "DE"
+            },
+            {
+                "name": "Greece",
+                "code": "GR"
+            },
+            {
+                "name": "Ireland",
+                "code": "IE"
+            },
+            {
+                "name": "Italy",
+                "code": "IT"
+            },
+            {
+                "name": "Kosovo",
+                "code": "RS"
+            },
+            {
+                "name": "Latvia",
+                "code": "LV"
+            },
+            {
+                "name": "Lithuania",
+                "code": "LT"
+            },
+            {
+                "name": "Luxembourg",
+                "code": "LU"
+            },
+            {
+                "name": "Malta",
+                "code": "MT"
+            },
+            {
+                "name": "Monaco",
+                "code": "MC"
+            },
+            {
+                "name": "Montenegro",
+                "code": "ME"
+            },
+            {
+                "name": "Netherlands",
+                "code": "NL"
+            },
+            {
+                "name": "Portugal",
+                "code": "PT"
+            },
+            {
+                "name": "San Marino",
+                "code": "SM"
+            },
+            {
+                "name": "Slovakia",
+                "code": "SK"
+            },
+            {
+                "name": "Slovenia",
+                "code": "SI"
+            },
+            {
+                "name": "Spain",
+                "code": "ES"
+            },
+            {
+                "name": "Vatican City",
+                "code": "VA"
+            }
+        ],
+        "emoji": "🇪🇺"
+    },
+    "AUD": {
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Australia",
+                "code": "AU"
+            },
+            {
+                "name": "Kiribati",
+                "code": "KI"
+            },
+            {
+                "name": "Nauru",
+                "code": "NR"
+            },
+            {
+                "name": "Tuvalu",
+                "code": "TV"
+            }
+        ],
+        "emoji": "🇦🇺"
+    },
+    "INR": {
+        "code": "INR",
+        "name": "Indian rupee",
+        "symbol": "₹",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Bhutan",
+                "code": "BT"
+            },
+            {
+                "name": "India",
+                "code": "IN"
+            }
+        ],
+        "emoji": "🇮🇳"
+    },
+    "USD": {
+        "code": "USD",
+        "name": "United States dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Bonaire",
+                "code": "BQ"
+            },
+            {
+                "name": "British Virgin Islands",
+                "code": "VG"
+            },
+            {
+                "name": "Ecuador",
+                "code": "EC"
+            },
+            {
+                "name": "El Salvador",
+                "code": "SV"
+            },
+            {
+                "name": "Liberia",
+                "code": "LR"
+            },
+            {
+                "name": "Marshall Islands",
+                "code": "MH"
+            },
+            {
+                "name": "Micronesia",
+                "code": "FM"
+            },
+            {
+                "name": "Palau",
+                "code": "PW"
+            },
+            {
+                "name": "Panama",
+                "code": "PA"
+            },
+            {
+                "name": "Saba",
+                "code": "BQ"
+            },
+            {
+                "name": "Sint Eustatius",
+                "code": "BQ"
+            },
+            {
+                "name": "Timor-Leste",
+                "code": "TL"
+            },
+            {
+                "name": "Turks and Caicos Islands",
+                "code": "TC"
+            },
+            {
+                "name": "United States",
+                "code": "US"
+            }
+        ],
+        "emoji": "🇺🇸"
+    },
+    "BRL": {
+        "code": "BRL",
+        "name": "Brazilian real",
+        "symbol": "R$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Brazil",
+                "code": "BR"
+            }
+        ],
+        "emoji": "🇧🇷"
+    },
+    "SGD": {
+        "code": "SGD",
+        "name": "Singapore dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Brunei",
+                "code": "BN"
+            },
+            {
+                "name": "Singapore",
+                "code": "SG"
+            }
+        ],
+        "emoji": "🇸🇬"
+    },
+    "BGN": {
+        "code": "BGN",
+        "name": "Bulgarian lev",
+        "symbol": "lv.",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Bulgaria",
+                "code": "BG"
+            }
+        ],
+        "emoji": "🇧🇬"
+    },
+    "CAD": {
+        "code": "CAD",
+        "name": "Canadian dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Canada",
+                "code": "CA"
+            }
+        ],
+        "emoji": "🇨🇦"
+    },
+    "CNY": {
+        "code": "CNY",
+        "name": "Renminbi",
+        "symbol": "¥",
+        "minor_units": 10,
+        "territories": [
+            {
+                "name": "China",
+                "code": "CN"
+            }
+        ],
+        "emoji": "🇨🇳"
+    },
+    "NZD": {
+        "code": "NZD",
+        "name": "New Zealand dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Cook Islands",
+                "code": "CK"
+            },
+            {
+                "name": "New Zealand",
+                "code": "NZ"
+            },
+            {
+                "name": "Niue",
+                "code": "NU"
+            },
+            {
+                "name": "Pitcairn Islands",
+                "code": "PN"
+            }
+        ],
+        "emoji": "🇳🇿"
+    },
+    "CZK": {
+        "code": "CZK",
+        "name": "Czech koruna",
+        "symbol": "Kč",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Czech Republic",
+                "code": "CZ"
+            }
+        ],
+        "emoji": "🇨🇿"
+    },
+    "DKK": {
+        "code": "DKK",
+        "name": "Danish krone",
+        "symbol": "kr",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Denmark",
+                "code": "DK"
+            },
+            {
+                "name": "Faroe Islands",
+                "code": "FO"
+            },
+            {
+                "name": "Greenland",
+                "code": "GL"
+            }
+        ],
+        "emoji": "🇩🇰"
+    },
+    "ZAR": {
+        "code": "ZAR",
+        "name": "South African rand",
+        "symbol": "R",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Eswatini",
+                "code": "SZ"
+            },
+            {
+                "name": "Lesotho",
+                "code": "LS"
+            },
+            {
+                "name": "Namibia",
+                "code": "NA"
+            },
+            {
+                "name": "South Africa",
+                "code": "ZA"
+            }
+        ],
+        "emoji": "🇿🇦"
+    },
+    "GBP": {
+        "code": "GBP",
+        "name": "Sterling",
+        "symbol": "£",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Falkland Islands",
+                "code": "FK"
+            },
+            {
+                "name": "Gibraltar",
+                "code": "GI"
+            },
+            {
+                "name": "Bailiwick of Guernsey",
+                "code": "GG"
+            },
+            {
+                "name": "Isle of Man",
+                "code": "IM"
+            },
+            {
+                "name": "Jersey",
+                "code": "JE"
+            },
+            {
+                "name": "South Georgia and the South Sandwich Islands",
+                "code": "GS"
+            },
+            {
+                "name": "Saint Helena",
+                "code": "SH"
+            },
+            {
+                "name": "United Kingdom",
+                "code": "GB"
+            }
+        ],
+        "emoji": "🇬🇧"
+    },
+    "HKD": {
+        "code": "HKD",
+        "name": "Hong Kong dollar",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Hong Kong",
+                "code": "HK"
+            }
+        ],
+        "emoji": "🇭🇰"
+    },
+    "HUF": {
+        "code": "HUF",
+        "name": "Hungarian forint",
+        "symbol": "Ft",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Hungary",
+                "code": "HU"
+            }
+        ],
+        "emoji": "🇭🇺"
+    },
+    "ISK": {
+        "code": "ISK",
+        "name": "Icelandic króna",
+        "symbol": "kr",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Iceland",
+                "code": "IS"
+            }
+        ],
+        "emoji": "🇮🇸"
+    },
+    "IDR": {
+        "code": "IDR",
+        "name": "Indonesian rupiah",
+        "symbol": "Rp",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Indonesia",
+                "code": "ID"
+            }
+        ],
+        "emoji": "🇮🇩"
+    },
+    "ILS": {
+        "code": "ILS",
+        "name": "Israeli new shekel",
+        "symbol": "₪",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Israel",
+                "code": "IL"
+            },
+            {
+                "name": "Palestine",
+                "code": "PS"
+            }
+        ],
+        "emoji": "🇮🇱"
+    },
+    "JPY": {
+        "code": "JPY",
+        "name": "Japanese yen",
+        "symbol": "¥",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Japan",
+                "code": "JP"
+            }
+        ],
+        "emoji": "🇯🇵"
+    },
+    "KRW": {
+        "code": "KRW",
+        "name": "South Korean won",
+        "symbol": "₩",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Korea, South",
+                "code": "KR"
+            }
+        ],
+        "emoji": "🇰🇷"
+    },
+    "CHF": {
+        "code": "CHF",
+        "name": "Swiss franc",
+        "symbol": "Fr",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Liechtenstein",
+                "code": "LI"
+            },
+            {
+                "name": "Switzerland",
+                "code": "CH"
+            }
+        ],
+        "emoji": "🇨🇭"
+    },
+    "MYR": {
+        "code": "MYR",
+        "name": "Malaysian ringgit",
+        "symbol": "RM",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Malaysia",
+                "code": "MY"
+            }
+        ],
+        "emoji": "🇲🇾"
+    },
+    "MXN": {
+        "code": "MXN",
+        "name": "Mexican peso",
+        "symbol": "$",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Mexico",
+                "code": "MX"
+            }
+        ],
+        "emoji": "🇲🇽"
+    },
+    "TRY": {
+        "code": "TRY",
+        "name": "Turkish lira",
+        "symbol": "₺",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Northern Cyprus",
+                "code": "XC"
+            },
+            {
+                "name": "Turkey",
+                "code": "TR"
+            }
+        ],
+        "emoji": "🇹🇷"
+    },
+    "NOK": {
+        "code": "NOK",
+        "name": "Norwegian krone",
+        "symbol": "kr",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Norway",
+                "code": "NO"
+            }
+        ],
+        "emoji": "🇳🇴"
+    },
+    "PHP": {
+        "code": "PHP",
+        "name": "Philippine peso",
+        "symbol": "₱",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Philippines",
+                "code": "PH"
+            }
+        ],
+        "emoji": "🇵🇭"
+    },
+    "PLN": {
+        "code": "PLN",
+        "name": "Polish złoty",
+        "symbol": "zł",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Poland",
+                "code": "PL"
+            }
+        ],
+        "emoji": "🇵🇱"
+    },
+    "RON": {
+        "code": "RON",
+        "name": "Romanian leu",
+        "symbol": "Leu",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Romania",
+                "code": "RO"
+            }
+        ],
+        "emoji": "🇷🇴"
+    },
+    "SEK": {
+        "code": "SEK",
+        "name": "Swedish krona",
+        "symbol": "kr",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Sweden",
+                "code": "SE"
+            }
+        ],
+        "emoji": "🇸🇪"
+    },
+    "THB": {
+        "code": "THB",
+        "name": "Thai baht",
+        "symbol": "฿",
+        "minor_units": 100,
+        "territories": [
+            {
+                "name": "Thailand",
+                "code": "TH"
+            }
+        ],
+        "emoji": "🇹🇭"
+    }
+}
